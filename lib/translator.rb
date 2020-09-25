@@ -14,7 +14,7 @@ end
 def get_japanese_emoticon(emo_path,emoticon)
   load_library(emo_path).each do |key, value|
     if value[:japanese]
-    return value[0]
+    return [key][value]
       binding.pry
     end
   end
