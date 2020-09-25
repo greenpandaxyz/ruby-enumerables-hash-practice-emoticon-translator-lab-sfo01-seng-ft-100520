@@ -14,7 +14,6 @@ end
 def get_japanese_emoticon(emo_path,emoticon)
   load_library(emo_path).each do |key, value|
     end
-
 end
 
 def get_english_meaning(emo_path,emoticon)
