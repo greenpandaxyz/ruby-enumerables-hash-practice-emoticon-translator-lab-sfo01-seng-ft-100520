@@ -17,6 +17,7 @@ def get_japanese_emoticon(emo_path,emoticon)
    if value[:english] == emoticon
     return value
    end
+ end
   end
 end
 
