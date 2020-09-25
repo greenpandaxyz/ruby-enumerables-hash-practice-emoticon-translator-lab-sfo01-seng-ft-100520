@@ -14,7 +14,7 @@ end
 def get_japanese_emoticon(emo_path,emoticon)
   load_library(emo_path).each do |key, value|
     value.each do |emo_equiv, specific|
-   if value[:japanese] == emoticon
+   if value[:english] == emoticon
     return value[:japanese]
       end
     end
